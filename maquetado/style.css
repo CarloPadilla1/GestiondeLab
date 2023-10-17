@@ -1,0 +1,11 @@
+myCarousel {
+    width: 80%; /* Ancho del carrusel */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Tamaño fijo para las imágenes del carrusel */
+.carousel-item img {
+    max-width: 100%; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la relación de aspecto original */
+}
+

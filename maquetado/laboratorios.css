@@ -1,0 +1,102 @@
+/* Estilo para el encabezado (header) */
+header {
+    background-color: #dc3545; /* Cambia este color al que desees */
+    color: #fff; /* Cambia este color al que desees para el texto */
+    padding: 10px 0;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Estilo para las tarjetas (cards) */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 300px;
+    height: 450px;
+    position: relative; /* Permite el posicionamiento absoluto del botón */
+
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    
+}
+
+/* Estilo para el botón "Ver" */
+.btn.btn-primary {
+    background-color: #dc3545;
+    color: #343a40;
+    border: none;
+    position: absolute;
+    bottom: 20px; /* Ajusta la posición vertical del botón según sea necesario */
+    left: 50%;
+    transform: translateX(-50%); /* Centra el botón horizontalmente */
+}
+
+.btn.btn-primary:hover {
+    background-color: #343a40;
+    color: #dc3545;
+}
+.facebook-primary {
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+}
+
+.facebook-primary:hover {
+    background-color: #ffffff;
+    color:blue;
+}
+
+
+/* Estilo para el pie de página (footer) */
+footer {
+    background-color: #343a40; /* Cambia este color al que desees */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para los botones de redes sociales en el pie de página */
+.list-inline .btn {
+    margin-right: 10px;
+}
+
+.list-inline .btn i {
+    margin-right: 5px;
+}
+
+    
